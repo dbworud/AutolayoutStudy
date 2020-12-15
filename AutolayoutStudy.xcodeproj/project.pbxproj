@@ -17,6 +17,8 @@
 		4F65DE3F2588A12600BEE1C8 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65DE3E2588A12600BEE1C8 /* PostViewController.swift */; };
 		4F65DE452588A63700BEE1C8 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65DE442588A63700BEE1C8 /* PostCell.swift */; };
 		4F65DE492588AE7B00BEE1C8 /* DialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65DE482588AE7A00BEE1C8 /* DialViewController.swift */; };
+		4F65DE4E2588BCC800BEE1C8 /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65DE4D2588BCC800BEE1C8 /* CodeViewController.swift */; };
+		4F65DE522588C37400BEE1C8 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65DE512588C37400BEE1C8 /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		4F65DE3E2588A12600BEE1C8 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		4F65DE442588A63700BEE1C8 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		4F65DE482588AE7A00BEE1C8 /* DialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialViewController.swift; sourceTree = "<group>"; };
+		4F65DE4D2588BCC800BEE1C8 /* CodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
+		4F65DE512588C37400BEE1C8 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 		4F65DE2525889FC000BEE1C8 /* AutolayoutStudy */ = {
 			isa = PBXGroup;
 			children = (
+				4F65DE4C2588BCA100BEE1C8 /* Autolayout(Code ver.) */,
 				4F65DE472588AE6300BEE1C8 /* DialView */,
 				4F65DE412588A4A600BEE1C8 /* DynamicCellView */,
 				4F65DE2625889FC000BEE1C8 /* AppDelegate.swift */,
@@ -93,6 +98,15 @@
 				4F65DE482588AE7A00BEE1C8 /* DialViewController.swift */,
 			);
 			path = DialView;
+			sourceTree = "<group>";
+		};
+		4F65DE4C2588BCA100BEE1C8 /* Autolayout(Code ver.) */ = {
+			isa = PBXGroup;
+			children = (
+				4F65DE4D2588BCC800BEE1C8 /* CodeViewController.swift */,
+				4F65DE512588C37400BEE1C8 /* CircleView.swift */,
+			);
+			path = "Autolayout(Code ver.)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,7 +180,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F65DE522588C37400BEE1C8 /* CircleView.swift in Sources */,
 				4F65DE3F2588A12600BEE1C8 /* PostViewController.swift in Sources */,
+				4F65DE4E2588BCC800BEE1C8 /* CodeViewController.swift in Sources */,
 				4F65DE2B25889FC000BEE1C8 /* ViewController.swift in Sources */,
 				4F65DE492588AE7B00BEE1C8 /* DialViewController.swift in Sources */,
 				4F65DE2725889FC000BEE1C8 /* AppDelegate.swift in Sources */,

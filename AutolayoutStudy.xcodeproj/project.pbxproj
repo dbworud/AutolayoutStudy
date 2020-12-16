@@ -13,6 +13,7 @@
 		4F2FDC992589A49000F1A022 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2FDC982589A49000F1A022 /* MyTableViewController.swift */; };
 		4F2FDC9C2589A4EF00F1A022 /* MyTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F2FDC9B2589A4EF00F1A022 /* MyTableCell.xib */; };
 		4F2FDC9F2589A59500F1A022 /* MyTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2FDC9E2589A59500F1A022 /* MyTableCell.swift */; };
+		4F2FDCA22589AF4900F1A022 /* MyCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2FDCA12589AF4900F1A022 /* MyCollectionCell.swift */; };
 		4F65DE2725889FC000BEE1C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65DE2625889FC000BEE1C8 /* AppDelegate.swift */; };
 		4F65DE2925889FC000BEE1C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65DE2825889FC000BEE1C8 /* SceneDelegate.swift */; };
 		4F65DE2B25889FC000BEE1C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65DE2A25889FC000BEE1C8 /* ViewController.swift */; };
@@ -34,6 +35,7 @@
 		4F2FDC982589A49000F1A022 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 		4F2FDC9B2589A4EF00F1A022 /* MyTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableCell.xib; sourceTree = "<group>"; };
 		4F2FDC9E2589A59500F1A022 /* MyTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableCell.swift; sourceTree = "<group>"; };
+		4F2FDCA12589AF4900F1A022 /* MyCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionCell.swift; sourceTree = "<group>"; };
 		4F65DE2325889FC000BEE1C8 /* AutolayoutStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutolayoutStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F65DE2625889FC000BEE1C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F65DE2825889FC000BEE1C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				4F2FDC982589A49000F1A022 /* MyTableViewController.swift */,
 				4F2FDC9B2589A4EF00F1A022 /* MyTableCell.xib */,
 				4F2FDC9E2589A59500F1A022 /* MyTableCell.swift */,
+				4F2FDCA12589AF4900F1A022 /* MyCollectionCell.swift */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				4F2FDC992589A49000F1A022 /* MyTableViewController.swift in Sources */,
 				4F65DE492588AE7B00BEE1C8 /* DialViewController.swift in Sources */,
 				4F65DE2725889FC000BEE1C8 /* AppDelegate.swift in Sources */,
+				4F2FDCA22589AF4900F1A022 /* MyCollectionCell.swift in Sources */,
 				4F65DE2925889FC000BEE1C8 /* SceneDelegate.swift in Sources */,
 				4F65DE452588A63700BEE1C8 /* PostCell.swift in Sources */,
 			);

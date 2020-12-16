@@ -1,15 +1,15 @@
 //
-//  PostCell.swift
+//  MyTableCell.swift
 //  AutolayoutStudy
 //
-//  Created by jaekyung you on 2020/12/15.
+//  Created by jaekyung you on 2020/12/16.
 //
 
 import Foundation
 import UIKit
 
-class PostCell : UITableViewCell {
-    
+class MyTableCell: UITableViewCell {
+
     @IBOutlet weak var userProfile: UIImageView!
     
     @IBOutlet weak var userContent: UILabel!
@@ -17,5 +17,4 @@ class PostCell : UITableViewCell {
     override class func awakeFromNib() {
         super.awakeFromNib()
     }
-    
 }

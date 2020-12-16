@@ -1,14 +1,15 @@
 //
-//  PostCell.swift
+//  TableViewCell.swift
 //  AutolayoutStudy
 //
-//  Created by jaekyung you on 2020/12/15.
+//  Created by jaekyung you on 2020/12/16.
 //
 
 import Foundation
 import UIKit
 
-class PostCell : UITableViewCell {
+class MyTableViewCell : UITableViewCell {
+    
     
     @IBOutlet weak var userProfile: UIImageView!
     

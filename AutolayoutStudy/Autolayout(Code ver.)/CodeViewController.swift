@@ -99,7 +99,4 @@ struct CodeViewController_Previews: PreviewProvider {
             .previewDisplayName("SwiftUI Preview")
     }
 }
-
-
-
 #endif

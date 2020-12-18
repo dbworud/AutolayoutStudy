@@ -489,7 +489,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bM-TT-wFG">
-                                                    <rect key="frame" x="20" y="56" width="89" height="59"/>
+                                                    <rect key="frame" x="44" y="56" width="41.5" height="59"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -501,7 +501,7 @@
                                                 <constraint firstItem="6bM-TT-wFG" firstAttribute="centerX" secondItem="L2S-yw-ksU" secondAttribute="centerX" id="K1B-fm-5NM"/>
                                                 <constraint firstAttribute="bottom" secondItem="6bM-TT-wFG" secondAttribute="bottom" constant="8" id="Na0-5u-DCU"/>
                                                 <constraint firstItem="rjK-7w-JS3" firstAttribute="centerX" secondItem="L2S-yw-ksU" secondAttribute="centerX" id="OI8-zE-bv9"/>
-                                                <constraint firstItem="6bM-TT-wFG" firstAttribute="leading" secondItem="L2S-yw-ksU" secondAttribute="leading" constant="20" id="ft4-L0-xnv"/>
+                                                <constraint firstItem="6bM-TT-wFG" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="L2S-yw-ksU" secondAttribute="leading" constant="20" id="ft4-L0-xnv"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="129" height="123"/>
@@ -515,9 +515,13 @@
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vtF-4h-8z5">
                                 <rect key="frame" x="20" y="108" width="374" height="32"/>
                                 <segments>
-                                    <segment title="First"/>
-                                    <segment title="Second"/>
+                                    <segment title="" image="list.bullet" catalog="system"/>
+                                    <segment title="" image="square.grid.2x2.fill" catalog="system"/>
+                                    <segment title="" image="rectangle.grid.3x2.fill" catalog="system"/>
                                 </segments>
+                                <connections>
+                                    <action selector="onCollectionViewTypeChanged:" destination="zoT-E5-UdV" eventType="valueChanged" id="Z74-GE-Eon"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4M9-MH-86k"/>
@@ -689,7 +693,10 @@
         </designable>
     </designables>
     <resources>
+        <image name="list.bullet" catalog="system" width="128" height="88"/>
         <image name="phone.fill" catalog="system" width="128" height="114"/>
+        <image name="rectangle.grid.3x2.fill" catalog="system" width="128" height="101"/>
+        <image name="square.grid.2x2.fill" catalog="system" width="128" height="114"/>
         <namedColor name="pink">
             <color red="0.72600001096725464" green="0.414000004529953" blue="0.76099997758865356" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>

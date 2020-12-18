@@ -26,6 +26,9 @@
 		4F65DE492588AE7B00BEE1C8 /* DialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65DE482588AE7A00BEE1C8 /* DialViewController.swift */; };
 		4F65DE4E2588BCC800BEE1C8 /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65DE4D2588BCC800BEE1C8 /* CodeViewController.swift */; };
 		4F65DE522588C37400BEE1C8 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65DE512588C37400BEE1C8 /* CircleView.swift */; };
+		4FAAC833258C75AC0047D2A0 /* DiffableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAAC832258C75AC0047D2A0 /* DiffableViewController.swift */; };
+		4FAAC837258C7B4E0047D2A0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAAC836258C7B4E0047D2A0 /* TableViewCell.swift */; };
+		4FAAC83B258C7B5E0047D2A0 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FAAC83A258C7B5E0047D2A0 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,9 @@
 		4F65DE482588AE7A00BEE1C8 /* DialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialViewController.swift; sourceTree = "<group>"; };
 		4F65DE4D2588BCC800BEE1C8 /* CodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
 		4F65DE512588C37400BEE1C8 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		4FAAC832258C75AC0047D2A0 /* DiffableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableViewController.swift; sourceTree = "<group>"; };
+		4FAAC836258C7B4E0047D2A0 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		4FAAC83A258C7B5E0047D2A0 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,7 @@
 		4F65DE2525889FC000BEE1C8 /* AutolayoutStudy */ = {
 			isa = PBXGroup;
 			children = (
+				4FAAC830258C75590047D2A0 /* TableViewDiffableDataSource */,
 				4F2FDC8325899BBD00F1A022 /* CollectionView */,
 				4F2FDC7F2589958E00F1A022 /* AutolayoutConstraint */,
 				4F65DE4C2588BCA100BEE1C8 /* Autolayout(Code ver.) */,
@@ -144,6 +151,16 @@
 				4F65DE512588C37400BEE1C8 /* CircleView.swift */,
 			);
 			path = "Autolayout(Code ver.)";
+			sourceTree = "<group>";
+		};
+		4FAAC830258C75590047D2A0 /* TableViewDiffableDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				4FAAC832258C75AC0047D2A0 /* DiffableViewController.swift */,
+				4FAAC836258C7B4E0047D2A0 /* TableViewCell.swift */,
+				4FAAC83A258C7B5E0047D2A0 /* TableViewCell.xib */,
+			);
+			path = TableViewDiffableDataSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F65DE3325889FC400BEE1C8 /* LaunchScreen.storyboard in Resources */,
+				4FAAC83B258C7B5E0047D2A0 /* TableViewCell.xib in Resources */,
 				4F2FDC9C2589A4EF00F1A022 /* MyTableCell.xib in Resources */,
 				4F65DE3025889FC400BEE1C8 /* Assets.xcassets in Resources */,
 				4F65DE2E25889FC000BEE1C8 /* Main.storyboard in Resources */,
@@ -219,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F65DE522588C37400BEE1C8 /* CircleView.swift in Sources */,
+				4FAAC837258C7B4E0047D2A0 /* TableViewCell.swift in Sources */,
 				4F2FDC8925899D2E00F1A022 /* MainViewController.swift in Sources */,
 				4F65DE3F2588A12600BEE1C8 /* PostViewController.swift in Sources */,
 				4F65DE4E2588BCC800BEE1C8 /* CodeViewController.swift in Sources */,
@@ -231,6 +250,7 @@
 				4F65DE2725889FC000BEE1C8 /* AppDelegate.swift in Sources */,
 				4F2FDCA22589AF4900F1A022 /* MyCollectionCell.swift in Sources */,
 				4F65DE2925889FC000BEE1C8 /* SceneDelegate.swift in Sources */,
+				4FAAC833258C75AC0047D2A0 /* DiffableViewController.swift in Sources */,
 				4F65DE452588A63700BEE1C8 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

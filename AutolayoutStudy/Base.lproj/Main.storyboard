@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Bp9-FQ-eu7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KOG-a4-KLH">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -53,6 +53,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-687" y="-74"/>
+        </scene>
+        <!--Diffable View Controller-->
+        <scene sceneID="Tn0-OL-7Hq">
+            <objects>
+                <viewController id="KOG-a4-KLH" customClass="DiffableViewController" customModule="AutolayoutStudy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qx1-xl-0a5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="v2D-tE-Rgx">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dLV-FM-OdV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="v2D-tE-Rgx" firstAttribute="leading" secondItem="dLV-FM-OdV" secondAttribute="leading" id="DT2-7q-uIa"/>
+                            <constraint firstAttribute="bottom" secondItem="v2D-tE-Rgx" secondAttribute="bottom" id="ECI-I1-m1o"/>
+                            <constraint firstItem="v2D-tE-Rgx" firstAttribute="top" secondItem="Qx1-xl-0a5" secondAttribute="top" id="WpI-V8-IXm"/>
+                            <constraint firstItem="dLV-FM-OdV" firstAttribute="trailing" secondItem="v2D-tE-Rgx" secondAttribute="trailing" id="q2n-0J-qrL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="v2D-tE-Rgx" id="31A-R7-55l"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lT1-96-0fq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1483" y="1399"/>
         </scene>
         <!--Dial View Controller-->
         <scene sceneID="NIV-gv-wQh">

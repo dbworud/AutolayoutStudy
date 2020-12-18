@@ -74,11 +74,11 @@
 		4F2FDC8325899BBD00F1A022 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				4F2FDC8425899BD400F1A022 /* CollectionViewController.swift */,
 				4F2FDC8825899D2E00F1A022 /* MainViewController.swift */,
 				4F2FDC982589A49000F1A022 /* MyTableViewController.swift */,
 				4F2FDC9B2589A4EF00F1A022 /* MyTableCell.xib */,
 				4F2FDC9E2589A59500F1A022 /* MyTableCell.swift */,
+				4F2FDC8425899BD400F1A022 /* CollectionViewController.swift */,
 				4F2FDCA12589AF4900F1A022 /* MyCollectionCell.swift */,
 			);
 			path = CollectionView;

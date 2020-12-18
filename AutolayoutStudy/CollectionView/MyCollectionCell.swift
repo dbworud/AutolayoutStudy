@@ -21,4 +21,5 @@ class MyCollectionCell: UICollectionViewCell {
             self.systemLabel.text = self.imageName // 라벨 설정
         }
     }
+
 }

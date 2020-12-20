@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -26,12 +26,15 @@
 		4F65DE492588AE7B00BEE1C8 /* DialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65DE482588AE7A00BEE1C8 /* DialViewController.swift */; };
 		4F65DE4E2588BCC800BEE1C8 /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65DE4D2588BCC800BEE1C8 /* CodeViewController.swift */; };
 		4F65DE522588C37400BEE1C8 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65DE512588C37400BEE1C8 /* CircleView.swift */; };
+		4FA4358C258F183300EAC5F6 /* SnapkitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA4358B258F183300EAC5F6 /* SnapkitViewController.swift */; };
 		4FAAC833258C75AC0047D2A0 /* DiffableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAAC832258C75AC0047D2A0 /* DiffableViewController.swift */; };
 		4FAAC837258C7B4E0047D2A0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAAC836258C7B4E0047D2A0 /* TableViewCell.swift */; };
 		4FAAC83B258C7B5E0047D2A0 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FAAC83A258C7B5E0047D2A0 /* TableViewCell.xib */; };
+		D06BAA16D189B9D029D172A3 /* Pods_AutolayoutStudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B03DB20E1C448B43781D06 /* Pods_AutolayoutStudy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18B03DB20E1C448B43781D06 /* Pods_AutolayoutStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutolayoutStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F2FDC80258995A200F1A022 /* ConstraintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintViewController.swift; sourceTree = "<group>"; };
 		4F2FDC8425899BD400F1A022 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		4F2FDC8825899D2E00F1A022 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -53,9 +56,12 @@
 		4F65DE482588AE7A00BEE1C8 /* DialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialViewController.swift; sourceTree = "<group>"; };
 		4F65DE4D2588BCC800BEE1C8 /* CodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
 		4F65DE512588C37400BEE1C8 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		4FA4358B258F183300EAC5F6 /* SnapkitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapkitViewController.swift; sourceTree = "<group>"; };
 		4FAAC832258C75AC0047D2A0 /* DiffableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableViewController.swift; sourceTree = "<group>"; };
 		4FAAC836258C7B4E0047D2A0 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		4FAAC83A258C7B5E0047D2A0 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		C7E1E5EEBCC78E26E67B9753 /* Pods-AutolayoutStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutolayoutStudy.release.xcconfig"; path = "Target Support Files/Pods-AutolayoutStudy/Pods-AutolayoutStudy.release.xcconfig"; sourceTree = "<group>"; };
+		E33A02B66EB8F880EB934F4A /* Pods-AutolayoutStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutolayoutStudy.debug.xcconfig"; path = "Target Support Files/Pods-AutolayoutStudy/Pods-AutolayoutStudy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +69,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D06BAA16D189B9D029D172A3 /* Pods_AutolayoutStudy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3950030756CB6F7D2D9C7348 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18B03DB20E1C448B43781D06 /* Pods_AutolayoutStudy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4F2FDC7F2589958E00F1A022 /* AutolayoutConstraint */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +110,8 @@
 			children = (
 				4F65DE2525889FC000BEE1C8 /* AutolayoutStudy */,
 				4F65DE2425889FC000BEE1C8 /* Products */,
+				B6E6F492AABDD2E4169B8DC6 /* Pods */,
+				3950030756CB6F7D2D9C7348 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +126,7 @@
 		4F65DE2525889FC000BEE1C8 /* AutolayoutStudy */ = {
 			isa = PBXGroup;
 			children = (
+				4FA43586258F172C00EAC5F6 /* Snapkit */,
 				4FAAC830258C75590047D2A0 /* TableViewDiffableDataSource */,
 				4F2FDC8325899BBD00F1A022 /* CollectionView */,
 				4F2FDC7F2589958E00F1A022 /* AutolayoutConstraint */,
@@ -153,6 +171,14 @@
 			path = "Autolayout(Code ver.)";
 			sourceTree = "<group>";
 		};
+		4FA43586258F172C00EAC5F6 /* Snapkit */ = {
+			isa = PBXGroup;
+			children = (
+				4FA4358B258F183300EAC5F6 /* SnapkitViewController.swift */,
+			);
+			path = Snapkit;
+			sourceTree = "<group>";
+		};
 		4FAAC830258C75590047D2A0 /* TableViewDiffableDataSource */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +189,15 @@
 			path = TableViewDiffableDataSource;
 			sourceTree = "<group>";
 		};
+		B6E6F492AABDD2E4169B8DC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E33A02B66EB8F880EB934F4A /* Pods-AutolayoutStudy.debug.xcconfig */,
+				C7E1E5EEBCC78E26E67B9753 /* Pods-AutolayoutStudy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F65DE3725889FC400BEE1C8 /* Build configuration list for PBXNativeTarget "AutolayoutStudy" */;
 			buildPhases = (
+				1B8013B65ECA2AA1F63B3F14 /* [CP] Check Pods Manifest.lock */,
 				4F65DE1F25889FC000BEE1C8 /* Sources */,
 				4F65DE2025889FC000BEE1C8 /* Frameworks */,
 				4F65DE2125889FC000BEE1C8 /* Resources */,
+				638125EFA17B8032C0AD9127 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +268,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B8013B65ECA2AA1F63B3F14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutolayoutStudy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		638125EFA17B8032C0AD9127 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutolayoutStudy/Pods-AutolayoutStudy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutolayoutStudy/Pods-AutolayoutStudy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutolayoutStudy/Pods-AutolayoutStudy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4F65DE1F25889FC000BEE1C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -243,6 +322,7 @@
 				4F65DE4E2588BCC800BEE1C8 /* CodeViewController.swift in Sources */,
 				4F2FDC81258995A200F1A022 /* ConstraintViewController.swift in Sources */,
 				4F2FDC8525899BD400F1A022 /* CollectionViewController.swift in Sources */,
+				4FA4358C258F183300EAC5F6 /* SnapkitViewController.swift in Sources */,
 				4F65DE2B25889FC000BEE1C8 /* ViewController.swift in Sources */,
 				4F2FDC9F2589A59500F1A022 /* MyTableCell.swift in Sources */,
 				4F2FDC992589A49000F1A022 /* MyTableViewController.swift in Sources */,
@@ -395,6 +475,7 @@
 		};
 		4F65DE3825889FC400BEE1C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E33A02B66EB8F880EB934F4A /* Pods-AutolayoutStudy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -413,6 +494,7 @@
 		};
 		4F65DE3925889FC400BEE1C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7E1E5EEBCC78E26E67B9753 /* Pods-AutolayoutStudy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

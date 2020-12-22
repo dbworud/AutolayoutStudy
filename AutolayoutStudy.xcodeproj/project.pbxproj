@@ -27,6 +27,7 @@
 		4F65DE4E2588BCC800BEE1C8 /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65DE4D2588BCC800BEE1C8 /* CodeViewController.swift */; };
 		4F65DE522588C37400BEE1C8 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65DE512588C37400BEE1C8 /* CircleView.swift */; };
 		4F8B48FB2591EFB8004758B6 /* ViewTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B48FA2591EFB8004758B6 /* ViewTransitionController.swift */; };
+		4F8B490025920811004758B6 /* BasicWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B48FF25920811004758B6 /* BasicWebViewController.swift */; };
 		4FA4358C258F183300EAC5F6 /* SnapkitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA4358B258F183300EAC5F6 /* SnapkitViewController.swift */; };
 		4FAAC833258C75AC0047D2A0 /* DiffableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAAC832258C75AC0047D2A0 /* DiffableViewController.swift */; };
 		4FAAC837258C7B4E0047D2A0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAAC836258C7B4E0047D2A0 /* TableViewCell.swift */; };
@@ -58,6 +59,7 @@
 		4F65DE4D2588BCC800BEE1C8 /* CodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
 		4F65DE512588C37400BEE1C8 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		4F8B48FA2591EFB8004758B6 /* ViewTransitionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTransitionController.swift; sourceTree = "<group>"; };
+		4F8B48FF25920811004758B6 /* BasicWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicWebViewController.swift; sourceTree = "<group>"; };
 		4FA4358B258F183300EAC5F6 /* SnapkitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapkitViewController.swift; sourceTree = "<group>"; };
 		4FAAC832258C75AC0047D2A0 /* DiffableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableViewController.swift; sourceTree = "<group>"; };
 		4FAAC836258C7B4E0047D2A0 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 		4F65DE2525889FC000BEE1C8 /* AutolayoutStudy */ = {
 			isa = PBXGroup;
 			children = (
+				4F8B48FD259207FA004758B6 /* WebView */,
 				4F8B48F82591E6F5004758B6 /* ViewTransition */,
 				4FA43586258F172C00EAC5F6 /* Snapkit */,
 				4FAAC830258C75590047D2A0 /* TableViewDiffableDataSource */,
@@ -180,6 +183,14 @@
 				4F8B48FA2591EFB8004758B6 /* ViewTransitionController.swift */,
 			);
 			path = ViewTransition;
+			sourceTree = "<group>";
+		};
+		4F8B48FD259207FA004758B6 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				4F8B48FF25920811004758B6 /* BasicWebViewController.swift */,
+			);
+			path = WebView;
 			sourceTree = "<group>";
 		};
 		4FA43586258F172C00EAC5F6 /* Snapkit */ = {
@@ -327,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F65DE522588C37400BEE1C8 /* CircleView.swift in Sources */,
+				4F8B490025920811004758B6 /* BasicWebViewController.swift in Sources */,
 				4FAAC837258C7B4E0047D2A0 /* TableViewCell.swift in Sources */,
 				4F2FDC8925899D2E00F1A022 /* MainViewController.swift in Sources */,
 				4F65DE3F2588A12600BEE1C8 /* PostViewController.swift in Sources */,
